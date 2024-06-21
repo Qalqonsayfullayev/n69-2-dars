@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.header__sec-img {
+  width: 112px;
+  height: 24px;
+  top: 28px;
+  left: 20px;
+}
+
+.header__section-nav {
+  display: flex;
+  gap: 30px;
+  margin-top: 5px;
+}
+
+.header__section-link {
+  height: 30px;
+  top: 0px;
+  color: black;
+
+  &:hover {
+    color: rgb(162, 95, 75);
+  }
+}
+
+.header__sections-div {
+  width: 92px;
+  height: 2px;
+  top: 24px;
+  left: 0px;
+  background-color: rgba(162, 95, 75, 0.3);
+}
+
+.header__sections-div:hover {
+  background: rgb(162, 95, 75);
+}
+
+.header__sections-shop {
+  width: 92px;
+  height: 26px;
+  top: 29px;
+  left: 828px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__sections-img {
+  width: 16px;
+  height: 20px;
+  top: 0px;
+  left: 0px;
+}
+
+.header__sections-image {
+  width: 20px;
+  height: 18px;
+  top: 3px;
+  left: 72px;
+}
+
+.site-main {
+  width: 100%;
+  height: 530px;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(5, 8, 39);
+  margin-top: 25px;
+}
+
+.main {
+  background-image: url(../img/img.png);
+  width: 940px;
+  height: 530px;
+  top: 0px;
+  margin-left: 220px;
+}
+
+.main__text {
+  width: 205px;
+  height: 18px;
+  top: 0px;
+  left: 294px;
+  font: Karla;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  padding-top: 160px;
+  margin-left: 368px;
+}
+
+.main__text-big {
+  font: Karla;
+  font-weight: 400;
+  font-size: 47px;
+  letter-spacing: 0%;
+  color: #fff;
+  padding-top: 15px;
+  margin-left: 323px;
+}
+
+.main__text-p {
+  font: Karla;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0%;
+  width: 793px;
+  height: 30px;
+  top: 0pxpx;
+  left: 0px;
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 74px;
+}
+
+.main__div {
+  width: 231px;
+  height: 18px;
+  top: 176px;
+  left: 281.5px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 48px;
+  margin-left: 340px;
+  text-align: center;
+}
+
+.main__div-text {
+  width: 183px;
+  height: 18px;
+  top: 0px;
+  left: 24px;
+  font-weight: 400px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+.site-even {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.site__even-h3 {
+  font: Karla;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0%;
+  width: 578px;
+  height: 80px;
+  top: 3px;
+  left: 40px;
+  margin-left: 180px;
+}
+
+.site__even-p {
+  font: Karla;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0%;
+  width: 658px;
+  height: 162px;
+  top: 99px;
+  margin-left: 140px;
+  left: 0px;
+}
+
+.site__even-child {
+  margin-left: 400px;
+}
+
+.site__even-text {
+  width: 133px;
+  height: 28px;
+  top: 0px;
+  left: 0px;
+  font: Karla;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0%;
+  color: rgb(162, 95, 75);
+}
+
+.site__even-div {
+  width: 133px;
+  height: 2px;
+  top: 262px;
+  left: 262.5px;
+  background-color: rgba(162, 95, 75, 0.2);
+  margin-bottom: 100px;
+}
+
+.site__mug-text {
+  Width: 120px;
+Height: 18px;
+Top: 0px;
+Left: 0px;
+Font: Karla;
+Font-weight: 400;
+Font-size: 12px;
+Letter-spacing: 2px;
+margin-left: 410px;
+margin-bottom: 100px;
+}
+
+.site__mug-child{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.site__mug-img {
+  Width: 460px;
+Height: 540px;
+Top: 0px;
+Left: 0px;
+}
+
+.site__div-text {
+  Width: 212px;
+Height: 30px;
+Top: 0px;
+Left: 0px;
+Font: Karla;
+Font-weight: 400;
+Font-size: 20px;
+Letter-spacing: 0%;
+text-align: center;
+margin-top: 35px;
+margin-left: 125px;
+}
+
+.site__div-p {
+Top: 610px;
+Left: 196px;
+Font: Karla;
+Font-weight: 400;
+Font-size: 16pxpx;
+Letter-spacing: 0%;
+}
+
+.site__div-color {
+  Font: Karla;
+Font-weight: 400;
+Font-size: 19px;
+Letter-spacing: 0%;
+color: rgb(162, 95, 75);
+margin-left: 160px;
+margin-right: 5px;
+}
+
